@@ -1,5 +1,12 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
+
+/* blockquote in foreign-language */
+blockquote[xml|lang]{
+	font-style: italic;
+}
+/* end of foreign-language blockquote */
 
 /* centered dedications */
 section[epub|type~="dedication"]{
@@ -77,5 +84,40 @@ span.elision{
 /* custom CSS */
 #albert-savarus{
 	margin-top: 20vh;
+}
+
+/* relax margins on embedded “novel” */
+blockquote:nth-of-type(2) {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+blockquote:nth-of-type(2) header {
+	font-variant: small-caps;
+	margin-bottom: 1em;
+}
+
+blockquote:nth-of-type(3) header p{
+	margin-bottom: 1em;
+	text-align: center;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:recipient"]{
+	text-align: initial;
+}
+
+[epub|type~="se:letter.dateline"]{
+	font-style: italic;
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="se:letter.dateline"] b{
+	font-style: normal;
+}
+
+footer [epub|type~="se:letter.dateline"]{
+	margin-top: 0;
 }
 /* end of custom CSS */
