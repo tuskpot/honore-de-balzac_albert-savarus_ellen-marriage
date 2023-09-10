@@ -42,14 +42,15 @@
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta id="collection-2" property="belongs-to-collection">The Human Comedy: Scenes from Private Life</meta>
 		<meta property="collection-type" refines="#collection-2">series</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A mysterious lawyer shows up in a town, opens a practice, and starts a newspaper.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			<p>Besançon has no use for strangers, at least until the lawyer Albert Savaron shows up. Before anyone realizes it, he’s won several cases, including a prominent one for the local diocese, and started a newspaper. Suddenly, his name is on everyone’s lips, and much of the discussion revolves around why this mysterious lawyer has come to their small town.</p>
+			<p>After reading a novella serialized in his newspaper and intuiting that it is perhaps at least somewhat autobiographical, the daughter of the most prominent woman in Besançon determines that she must penetrate Albert’s mystery. What follows is vintage Balzac, where the best-laid plans rarely work out as intended.</p>
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1898</dc:source>
 		<dc:source>https://archive.org/details/countryparsonalb00balziala</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<meta property="se:production-notes">Diacritics were missing from the transcription and had to be added manually.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Albert_Savarus</meta>
