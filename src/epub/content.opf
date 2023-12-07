@@ -44,8 +44,8 @@
 		<meta property="collection-type" refines="#collection-2">series</meta>
 		<dc:description id="description">A mysterious lawyer shows up in a town, opens a practice, and starts a newspaper.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			<p>Besançon has no use for strangers, at least until the lawyer Albert Savaron shows up. Before anyone realizes it, he’s won several cases, including a prominent one for the local diocese, and started a newspaper. Suddenly, his name is on everyone’s lips, and much of the discussion revolves around why this mysterious lawyer has come to their small town.</p>
-			<p>After reading a novella serialized in his newspaper and intuiting that it is perhaps at least somewhat autobiographical, the daughter of the most prominent woman in Besançon determines that she must penetrate Albert’s mystery. What follows is vintage Balzac, where the best-laid plans rarely work out as intended.</p>
+			&lt;p&gt;Besançon has no use for strangers, at least until the lawyer Albert Savaron shows up. Before anyone realizes it, he’s won several cases, including a prominent one for the local diocese, and started a newspaper. Suddenly, his name is on everyone’s lips, and much of the discussion revolves around why this mysterious lawyer has come to their small town.&lt;/p&gt;
+			&lt;p&gt;After reading a novella serialized in his newspaper and intuiting that it is perhaps at least somewhat autobiographical, the daughter of the most prominent woman in Besançon determines that she must penetrate Albert’s mystery. What follows is vintage &lt;a href="https://standardebooks.org/ebooks/honore-balzac"&gt;Balzac&lt;/a&gt;, where the best-laid plans rarely work out as intended.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1898</dc:source>
