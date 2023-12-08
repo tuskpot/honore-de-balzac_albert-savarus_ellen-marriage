@@ -100,7 +100,6 @@ blockquote:nth-of-type(2) header{
 blockquote:nth-of-type(3) header p{
 	margin-bottom: 1em;
 	text-align: center;
-	text-indent: 0;
 }
 
 [epub|type~="z3998:recipient"]{
